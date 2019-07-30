@@ -1,0 +1,19 @@
+@page "/"
+@using events.Services
+@using events.Models
+@using System.Collections
+@inject EventsService EventsInjectService
+
+@if (true)
+{
+    
+}
+
+@code {
+    List<Event> events;
+
+    protected override async Task OnInitAsync() 
+    {
+        events = await EventsInjectService.GetEventsAsync();
+    }
+}

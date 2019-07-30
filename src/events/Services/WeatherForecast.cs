@@ -1,6 +1,6 @@
 using System;
 
-namespace events.Data
+namespace events.Services
 {
     public class WeatherForecast
     {
