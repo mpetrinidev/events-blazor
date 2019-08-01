@@ -22,6 +22,7 @@ namespace events
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
+            services.AddSingleton<EventsService>();
             services.AddSingleton<WeatherForecastService>();
         }
 

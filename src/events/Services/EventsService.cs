@@ -13,7 +13,7 @@ namespace events.Services
                 Description = "Welcome to the xamarin event",
                 ShortDescription = "Welcome to the xamarin event!",
                 Title = "Blazor Workshop",
-                PictureUrl = string.Empty
+                PictureUrl = "/images/buenos_aires.jpg"
             },
             new Event {
                 Country = "Brasil",
@@ -21,7 +21,7 @@ namespace events.Services
                 Description = "Evento dentro de la Universidad",
                 ShortDescription = "Evento dentro de la universidad",
                 Title = "Blazor Workshop",
-                PictureUrl = string.Empty
+                PictureUrl = "/images/rio_janeiro.jpg"
             },
             new Event {
                 Country = "Perú",
@@ -29,7 +29,7 @@ namespace events.Services
                 Description = "Welcome to the Blazor workshop",
                 ShortDescription = "Welcome to the Blazor workshop",
                 Title = "Blazor Workshop",
-                PictureUrl = string.Empty
+                PictureUrl = "/images/cusco.jpg"
             }
         };
 
